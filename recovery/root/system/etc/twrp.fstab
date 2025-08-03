@@ -1,0 +1,7 @@
+/boot		emmc	/dev/block/platform/soc0/e0000000.noc/by-name/ImcPartID071
+/system		ext4	/dev/block/platform/soc0/e0000000.noc/by-name/ImcPartID068
+/data		ext4	/dev/block/platform/soc0/e0000000.noc/by-name/ImcPartID069     flags=encryptable=/nvm_fs_partition/userdata_footer
+/cache		ext4	/dev/block/platform/soc0/e0000000.noc/by-name/ImcPartID070
+/recovery	emmc	/dev/block/platform/soc0/e0000000.noc/by-name/ImcPartID121
+/external_sd	vfat	/devices/soc0/e0000000.noc/ef010000.l2_noc/e1000000.ahb_per/e1400000.sd/mmc_host/mmc1 flags=display="Micro SDcard";storage;wipeingui;removable
+/usb-otg     vfat    /dev/block/sda1      /dev/block/sda      flags=removable;storage;display=USB-OTG
